@@ -1,0 +1,14 @@
+text2osc.py
+by Sam Neurohack
+
+Dead simple send console input message to OSC
+ 
+No licence. It"s not bullet proof, just handy.
+To be improved !!
+ 
+Usage : 
+OSC destination IP  OSC destination port  OSC command
+
+	192.168.1.3 8000 /box/clear 1 4 2	
+	
+(Needs pyOSC)
