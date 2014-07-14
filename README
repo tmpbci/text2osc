@@ -1,9 +1,9 @@
 text2osc.py
 by Sam Neurohack
 
-Dead simple send console input message to OSC
+Dead simple send OSC command typed in terminal to the network
  
-No licence. It"s not bullet proof, just handy.
+No licence. It's not bullet proof, just handy.
 To be improved !!
  
 Usage : 
@@ -14,6 +14,6 @@ Then enter your command like :
 
 192.168.1.3 8000 /box/clear 1 4 
 	
-Note : this dummy version send 1 and 4 as float
+Note : this version send 1 and 4 as float
 Needs pyOSC
 
